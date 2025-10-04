@@ -7,43 +7,27 @@ h1 {
 
 body {
   background-color: ivory;
-  margin: 10px 50px 10px 50px;
   font-family: Open+Sans, sans-serif;
   color: darkblue;
 }
 
+.container {
+  margin: 10px 50px 10px 50px;
+}
+title {
+  margin: 10px 50px 10px 50px;
+}
+
 img {
   display: inline-block;
+  width: 100px;
+  height: 100px;
   margin: 10px 10px 10px 10px;
 }
 
-.left {
-  float: left;
-  width: 300px;
+.navbar-collapse {
+  background-color: black;
 }
-
-.middle {
-  float: center;
-  margin: auto;
-  width: 300px;
-}
-
-.right {
-  float: right;
-  width: 300px;
-}
-
-
-.navBar {
-  list-style-type: none;
-  margin: 0;
-  float: left;
-  text-align: center;
-  display: block;
-  
-}
-
-li {
-  display: inline;
-  margin: 0px 100px 0px 100px;
+a.nav-link {
+  color: white;
 }
